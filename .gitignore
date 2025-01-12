@@ -1,0 +1,8 @@
+node_modules
+typechain-types
+artifacts
+.vscode
+.env
+cache
+contracts/external
+contracts/interfaces

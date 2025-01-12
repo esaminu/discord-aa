@@ -1,0 +1,46 @@
+{
+  "name": "discord-aa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.9",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@nomicfoundation/ignition-core": "^0.15.9",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.10",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.7.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@reclaimprotocol/verifier-solidity-sdk": "^1.0.4",
+    "account-abstraction": "npm:@account-abstraction/contracts@0.7.0",
+    "bip39": "^3.1.0",
+    "chai": "^4.3.0",
+    "dotenv": "^16.4.7",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "solidity-stringutils": "github:LayerZero-Labs/solidity-stringutils"
+  }
+}

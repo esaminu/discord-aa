@@ -1,0 +1,3 @@
+[submodule "light-account"]
+	path = light-account
+	url = https://github.com/AAStarCommunity/light-account.git
